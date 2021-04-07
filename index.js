@@ -10,7 +10,7 @@ if ( num > 10){
 }
 console.log("Ejercicio 7");
 let cont = 1;
-const aux = Mat.floor(random()*10)+1;
+const aux = Math.floor(random()*10)+1;
 let valor;
 while(cont){
   valor = parseInt(prompt("ingrese un numero entre 1 y 10"))
